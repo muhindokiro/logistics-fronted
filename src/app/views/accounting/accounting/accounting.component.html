@@ -1,0 +1,24 @@
+<div class="container-fluid page">
+    <div class="d-flex page__box p-3 mt-2">Finance Management</div>
+    <div class="page__content shadow p-3 position-relative">
+        <section class="tabs">
+          <mat-tab-group #tabs (selectedTabChange)="tabClick($event)">
+            <mat-tab label="Journals">
+              <app-journals></app-journals>
+            </mat-tab>
+            <mat-tab label="Taxes">
+              <app-taxes></app-taxes>
+            </mat-tab>
+            <mat-tab label="Charts of accounts">
+              <app-charts-of-account></app-charts-of-account>
+            </mat-tab>
+            <mat-tab label="Journal Entries">
+              <app-journal-entries></app-journal-entries>
+            </mat-tab>
+            <mat-tab label="Journal Items">
+              <app-journal-items></app-journal-items>
+            </mat-tab>
+          </mat-tab-group>
+        </section>
+    </div>
+  </div>

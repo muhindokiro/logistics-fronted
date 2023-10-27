@@ -1,0 +1,19 @@
+  <div class="container-fluid page" >
+    <div class="d-flex page__box p-3 mt-2">Employees Management</div>
+    <div class="page__content shadow p-3 position-relative">
+      <section class="tabs">
+        <mat-tab-group #tabs (selectedTabChange)="tabClick($event)">
+          <mat-tab label="Employees">
+            <app-employee-listing></app-employee-listing>
+          </mat-tab>
+          <mat-tab label="Contracts">
+            <app-contracts></app-contracts>
+          </mat-tab>
+          <mat-tab label="Salary Structure">
+            <app-structures></app-structures>
+          </mat-tab>
+        </mat-tab-group>
+      </section>
+    </div>
+  </div>
+  

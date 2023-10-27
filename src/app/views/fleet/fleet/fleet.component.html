@@ -1,0 +1,24 @@
+<div class="container-fluid page">
+  <div class="d-flex page__box p-3 mt-2">Fleet Management</div>
+  <div class="page__content shadow p-3 position-relative">
+    <section class="tabs">
+      <mat-tab-group #tabs (selectedTabChange)="tabClick($event)">
+        <mat-tab label="Vehicles">
+          <app-cars></app-cars>
+        </mat-tab>
+        <mat-tab label="Manufacturers">
+          <app-car-manufacturer></app-car-manufacturer>
+        </mat-tab>
+        <mat-tab label="Models">
+          <app-car-model></app-car-model>
+        </mat-tab>
+        <mat-tab label="Services">
+          <app-car-services></app-car-services>
+        </mat-tab>
+        <mat-tab label="Service Types">
+          <app-service-types></app-service-types>
+        </mat-tab>
+      </mat-tab-group>
+    </section>
+  </div>
+</div>

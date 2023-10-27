@@ -1,0 +1,29 @@
+.tabs {
+    ::ng-deep {
+      .mat-tab-list .mat-tab-labels .mat-tab-label-active {
+        color: #FAFAFA;
+        background-color: #1e293b;
+        border-radius: 10px;
+        opacity: 1 !important;
+      }
+  
+      .mat-tab-nav-bar, .mat-tab-header {
+        border: none !important;
+      }
+  
+      .mat-tab-list .mat-tab-labels {
+        background-color: white !important;
+      }
+  
+      .mat-tab-group.mat-primary .mat-ink-bar {
+        background: none;
+      }
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
